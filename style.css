@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: rgb(234, 221, 233);
+}
+.navbar-nav li{
+  transition: all ease 0.67s;
+  color: aliceblue;
+}
+.navbar-nav li:hover{
+  background-color: rgba(39, 39, 185, 0.712);
+  padding: 10px 12px;
+  border-radius: 5px;
+  color: black;
+}
+.about{
+  margin-top: 100px;
+}
+.offer{
+  margin-top:100px;
+  background-color: #F8F8F8;
+padding-bottom: 80px;
+
+}
+.offer-btn button{
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid green;
+  color: green;
+  transition: all ease 0.4s;
+}
+.offer-btn button:hover{
+
+  color: aliceblue;
+  background-color: #29CA8E;
+}
+.contact{
+  background-color: #3F51B5;
+}
+.form{
+  width: 100%;
+  
+}
+.form input{
+  width: 80%;
+  height: 50px;
+  text-indent: 15px;
+  border-radius: 30px;
+}
+.form textarea{
+  width: 80%;
+  height: 150px;
+  text-indent: 15px;
+  border-radius: 30px;
+}
+.form button{
+  padding: 15px;
+  border-radius: 30px;
+ transition: all ease 0.6s;
+ margin-bottom: 50px;
+}
+.form button:hover{
+  background-color: #3F51B5;
+  color: aliceblue;
+}
+footer{
+  background-color: #252020;
+  
+}
+.footer-pannel ul{
+ margin-top: 50%;
+list-style: none;
+text-decoration: none;
+margin-bottom:20% ;
+}
+
+@media screen and (max-width:62em) {
+  .navbar-toggler{
+   background-color: rgb(141, 78, 196);
+  }
+  .hide{
+    display:none;
+  }
+  .form button{
+   margin-bottom: 0px;
+  }
+  .footer-pannel ul{
+ margin-top: 10%;
+margin-bottom:2% ;
+}
+}
